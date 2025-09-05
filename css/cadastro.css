@@ -1,0 +1,95 @@
+/* Início do CSS Customizado - Cadastro Cliente */
+:root {
+  --brand: #570a0d;
+  --brand-contrast: #ffffff;
+  --card-radius: 12px;
+}
+
+/* Header / Footer padrão */
+.site-header {
+  background-color: var(--brand);
+}
+.site-header .navbar-brand,
+.site-header .nav-link {
+  color: var(--brand-contrast);
+}
+.site-footer {
+  background-color: var(--brand);
+  color: var(--brand-contrast);
+  padding: 0.75rem 0;
+}
+
+/* Card principal */
+.cadastro-card {
+  width: 100%;
+  max-width: 1000px;
+  border-radius: var(--card-radius);
+  overflow: hidden;
+}
+
+/* Aside (painel direito) */
+.aside-panel {
+  background: linear-gradient(180deg, rgba(87,10,13,0.95), rgba(87,10,13,0.9));
+  color: var(--brand-contrast);
+}
+
+/* Botão com cor da marca */
+.btn-brand {
+  background-color: var(--brand);
+  border-color: var(--brand);
+  color: var(--brand-contrast);
+}
+.btn-brand:hover,
+.btn-brand:focus {
+  background-color: #3f0608;
+  border-color: #3f0608;
+  color: var(--brand-contrast);
+}
+
+/* Logo circular (para aside) */
+.logo-circle {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+}
+.logo-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Input-group: ajuste do botão olho */
+.input-group .eye-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  min-width: 44px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+/* Foco nos inputs com cor da marca */
+.form-control:focus, .form-select:focus {
+  box-shadow: 0 0 0 0.12rem rgba(87,10,13,0.12);
+  border-color: var(--brand);
+}
+
+/* Responsividade: ajustar card e paddings */
+@media (max-width: 767.98px) {
+  .cadastro-card {
+    margin: 0 1rem;
+  }
+  .logo-circle {
+    width: 92px;
+    height: 92px;
+  }
+}
+/* Fim do CSS Customizado - Cadastro Cliente */

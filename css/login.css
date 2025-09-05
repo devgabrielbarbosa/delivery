@@ -1,0 +1,43 @@
+.col-12 {
+ border-radius: 15px;
+}
+/* Fundo marrom do lado direito */
+.bg-logo {
+  background-color: #66060a;
+}
+
+/* Círculo da logo */
+.logo-circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  overflow: hidden;
+}
+
+.logo-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Título acima do card */
+.titulo-login {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #b5b5b5;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+/* Botão redondo */
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  font-weight: 500;
+ 
+}
+.btn-danger:hover {
+  background-color: #bb2d3b;
+}
