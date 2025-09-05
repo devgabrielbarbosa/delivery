@@ -1,3 +1,6 @@
+.main {
+  min-height: 70vh;
+}
 .col-12 {
  border-radius: 15px;
 }

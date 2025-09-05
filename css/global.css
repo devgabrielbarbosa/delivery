@@ -44,7 +44,6 @@ main {
   padding-top: 50px;
   width: 100%;
   box-sizing: border-box;
-  height: 100vh;
 }
 
 button{
@@ -61,12 +60,18 @@ span{
   color: black !important;
 }
 
-p{
-  color: #fffefe;
-  line-height: 1.6;
-}
+
 
 strong{
   color: #151515;
   font-weight: bold;
+}
+.card-img-top {
+  height: 200px;       /* define a altura */
+  object-fit: cover;   /* mantém a proporção e corta o excesso */
+}
+
+.img-fluid {
+  height: 100px;       /* altura fixa */
+  object-fit: cover;   /* corta sem distorcer */
 }
